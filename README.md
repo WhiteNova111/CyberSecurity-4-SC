@@ -148,6 +148,6 @@ python ZT/auth/authenticate.py
 - **Email Service**: smtplib
 - **Real-Time Updates**: Flask-SocketIO
 
-```
+
 Let me know if you need further assistance!
-```
+
