@@ -149,5 +149,4 @@ python ZT/auth/authenticate.py
 - **Real-Time Updates**: Flask-SocketIO
 
 
-Let me know if you need further assistance!
 
