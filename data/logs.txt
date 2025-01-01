@@ -1,0 +1,100 @@
+2024-12-17 05:47:57 | System Access | Failed Login | Success
+2024-12-17 05:47:57 | Network | Data Transfer | Success
+2024-12-17 05:47:57 | Network | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | Network | Failed Login | Success
+2024-12-17 05:47:57 | Network | Login | Success
+2024-12-17 05:47:57 | User Behavior | Login | Success
+2024-12-17 05:47:57 | Network | File Access | Success
+2024-12-17 05:47:57 | Network | File Access | Failure
+2024-12-17 05:47:57 | Network | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | Network | Failed Login | Success
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Failure
+2024-12-17 05:47:57 | Network | Failed Login | Failure
+2024-12-17 05:47:57 | System Access | File Access | Success
+2024-12-17 05:47:57 | User Behavior | Login | Success
+2024-12-17 05:47:57 | Network | File Access | Success
+2024-12-17 05:47:57 | Network | Login | Failure
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Success
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | File Access | Success
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | Failed Login | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | Login | Success
+2024-12-17 05:47:57 | Network | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | File Access | Success
+2024-12-17 05:47:57 | Network | File Access | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Login | Success
+2024-12-17 05:47:57 | System Access | Login | Failure
+2024-12-17 05:47:57 | Network | Login | Success
+2024-12-17 05:47:57 | Network | File Access | Success
+2024-12-17 05:47:57 | User Behavior | Failed Login | Success
+2024-12-17 05:47:57 | Network | Data Transfer | Success
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Failure
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | Login | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Success
+2024-12-17 05:47:57 | Network | File Access | Failure
+2024-12-17 05:47:57 | User Behavior | File Access | Failure
+2024-12-17 05:47:57 | Network | Configuration Change | Failure
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Failure
+2024-12-17 05:47:57 | System Access | Configuration Change | Failure
+2024-12-17 05:47:57 | Network | Failed Login | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Failure
+2024-12-17 05:47:57 | Network | Failed Login | Success
+2024-12-17 05:47:57 | User Behavior | Login | Failure
+2024-12-17 05:47:57 | System Access | Login | Success
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Failure
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Failure
+2024-12-17 05:47:57 | System Access | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | Failed Login | Failure
+2024-12-17 05:47:57 | System Access | Login | Failure
+2024-12-17 05:47:57 | Network | Failed Login | Success
+2024-12-17 05:47:57 | System Access | File Access | Failure
+2024-12-17 05:47:57 | Network | Login | Success
+2024-12-17 05:47:57 | System Access | Login | Failure
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Success
+2024-12-17 05:47:57 | Network | File Access | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | Network | File Access | Success
+2024-12-17 05:47:57 | System Access | File Access | Success
+2024-12-17 05:47:57 | System Access | Login | Success
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Failure
+2024-12-17 05:47:57 | User Behavior | Login | Success
+2024-12-17 05:47:57 | System Access | File Access | Failure
+2024-12-17 05:47:57 | Network | Login | Success
+2024-12-17 05:47:57 | System Access | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | Login | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Failure
+2024-12-17 05:47:57 | System Access | File Access | Success
+2024-12-17 05:47:57 | Network | Login | Success
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Success
+2024-12-17 05:47:57 | User Behavior | File Access | Success
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Failure
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Success
+2024-12-17 05:47:57 | User Behavior | Login | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Success
+2024-12-17 05:47:57 | System Access | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Configuration Change | Success
+2024-12-17 05:47:57 | Network | Configuration Change | Success
+2024-12-17 05:47:57 | User Behavior | Failed Login | Success
+2024-12-17 05:47:57 | Network | Failed Login | Success
+2024-12-17 05:47:57 | System Access | File Access | Success
+2024-12-17 05:47:57 | User Behavior | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | Data Transfer | Success
+2024-12-17 05:47:57 | System Access | Data Transfer | Success
+2024-12-17 05:47:57 | Network | Configuration Change | Failure
+2024-12-17 05:47:57 | System Access | Failed Login | Success
+2024-12-17 05:47:57 | Network | Data Transfer | Success
+2024-12-17 05:47:57 | Network | Failed Login | Failure

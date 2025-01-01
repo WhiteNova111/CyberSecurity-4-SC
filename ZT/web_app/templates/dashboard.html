@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Trust & SIEM Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Zero Trust & SIEM Dashboard</h1>
+    <div class="container">
+        <p>Welcome, {{ username }}. You are logged in as an Admin.</p>
+
+        <!-- Display navigation links -->
+        <div class="navigation">
+            <a href="/logs" class="btn btn-primary">View Logs</a>
+            <a href="/anomalies" class="btn btn-warning">View Anomalies</a>
+            <a href="/zta" class="btn btn-info">Explore Zero Trust Architecture</a>
+            <a href="/generate_report" class="btn btn-success">Download Report</a>
+            
+        </div>
+    </div>
+
+    <!-- Include a Chart.js example for the dashboard (visual enhancement) -->
+    <div class="charts">
+        <h2>System Health and Anomaly Report</h2>
+        <canvas id="anomalyChart" width="400" height="200"></canvas>
+    </div>
+
+    <script>
+        // Example of how you might dynamically load data for charts based on the anomalies detected
+        fetch('/logs_chart_data')
+        .then(response => response.json())
+        .then(data => {
+            const ctx = document.getElementById('anomalyChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(data),
+                    datasets: [{
+                        label: 'Log Occurrences by Source',
+                        data: Object.values(data),
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

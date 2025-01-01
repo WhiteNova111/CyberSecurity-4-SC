@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Trust Dashboard</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Welcome to Zero Trust Architecture Dashboard</h1>
+        <p>You are logged in as: {{ user }}</p>
+        <p>Zero Trust Architecture ensures secure access by verifying identity continuously, granting minimal access, and applying micro-segmentation.</p>
+
+        <h3>Access Controls and Resources</h3>
+        <ul>
+            <li><a href="/logs">View Logs</a></li>
+            <li><a href="/anomalies">View Anomalies</a></li>
+            <li><a href="/network">View Network Details</a></li>
+            <li><a href="/generate_report">Download Report</a></li>
+        </ul>
+
+        <!-- Add additional Zero Trust-related content or functionality here -->
+
+        <a href="/" class="btn btn-secondary mt-3">Back to Dashboard</a>
+    </div>
+</body>
+</html>
