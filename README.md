@@ -30,61 +30,70 @@ The project is designed to monitor network traffic, user behavior, and system ev
 6. **Real-Time Email Notifications**:
    - Sends OTPs during authentication and logs security events.
 
----
-
-## **Project Structure**
 ```
 A:/Project/
 │
 ├── ZT/
 │   ├── auth/
-│   │   └── authenticate.py  # Handles user authentication and OTP-based 2FA.
+│   │   └── authenticate.py   # Handles user authentication with 2FA.
 │   ├── SIEM/
-│   │   ├── collector.py      # Simulates log generation and saves logs to a file.
-│   │   ├── ai_analyzer.py    # Processes logs and detects anomalies using AI.
-│   │   └── logger.py         # Logs system events for auditing.
-│   └── data/                 # Directory for storing logs and anomaly files.
-│       ├── logs.txt          # Collected log entries.
+│   │   ├── collector.py      # Simulates log generation.
+│   │   ├── ai_analyzer.py    # Processes logs and detects anomalies.
+│   │   └── logger.py         # Logs events for audit trails.
+│   ├── web_app/
+│   │   ├── templates/
+│   │   │   └── index.html    # Main dashboard template.
+│   │   ├── static/
+│   │   │   └── style.css     # Web app styling.
+│   │   └── app.py            # Flask app for the dashboard.
+│   └── data/
+│       ├── logs.txt          # Collected logs.
 │       └── anomalies.txt     # Detected anomalies.
-└── README.md                 # Project documentation.
+└── README.md                 # Documentation.
 ```
-
----
 
 ## **Installation**
 1. Clone the repository:
  
 2. Install dependencies:
    - Install required Python packages:
-     ```terminal
+     
+terminal
      pip install pandas numpy scikit-learn matplotlib
-     ```
+
+``
+## **Usage**
+
+### **1. Start the Web Application**
+Launch the Flask web app:
+```bash
+python ZT/web_app/app.py
+```
+Access it at `http://127.0.0.1:5000`.
 
 ---
 
-## **Usage**
-
-## 1. **Log Collection**
-Run the `collector.py` script to generate simulated logs:
-```terminal
+### **2. Log Collection**
+Run the log collector to simulate log entries:
+```bash
 python ZT/SIEM/collector.py
 ```
 Logs will be saved to `data/logs.txt`.
 
 ---
 
-## 2. **Anomaly Detection**
-Process logs and detect anomalies using AI:
-```terminal
+### **3. Anomaly Detection**
+Process logs for anomalies using AI:
+```bash
 python ZT/SIEM/ai_analyzer.py
 ```
 Anomalies will be saved to `data/anomalies.txt`.
 
 ---
 
-## 3. **Authentication**
-Run the authentication system with 2FA:
-```terminal
+### **4. Authentication**
+Run the authentication system with OTP-based 2FA:
+```bash
 python ZT/auth/authenticate.py
 ```
 - Enter your credentials.
@@ -92,35 +101,53 @@ python ZT/auth/authenticate.py
 
 ---
 
+## **Web App Features**
+1. **Dashboard**:
+   - Centralized interface for real-time monitoring.
+   
+2. **View Logs**:
+   - Access logs stored in `logs.txt`.
+
+3. **Anomaly Tracking**:
+   - Visualize flagged anomalies.
+
+4. **Explore Zero Trust**:
+   - Learn about Zero Trust principles and implementation.
+
+5. **Download Reports**:
+   - Generate and download security reports.
+
+6. **Dark Mode**:
+   - Toggle between light and dark modes for accessibility.
+
+---
+
 ## **How It Works**
 
-1. **Log Collection**:
-   - Generates logs with random sources, actions, and statuses.
-   - Saves logs in a structured format for further analysis.
+### **Log Collection**:
+- Simulates logs from random sources and saves them to a file.
 
-2. **Log Preprocessing**:
-   - Encodes categorical data for machine learning.
+### **Log Preprocessing**:
+- Encodes categorical fields for compatibility with machine learning.
 
-3. **Anomaly Detection**:
-   - Uses **KMeans clustering** to identify unusual behavior in logs.
+### **Anomaly Detection**:
+- Uses **KMeans clustering** to flag unusual behavior.
 
-4. **Authentication**:
-   - Verifies user credentials with **bcrypt**.
-   - Ensures 2FA using OTPs sent via email.
-
-5. **Auditing**:
-   - Logs events (e.g., authentication attempts, anomalies) for future review.
+### **Web App**:
+- Interactive dashboard powered by Flask.
+- Secure authentication with password hashing and OTP verification.
 
 ---
 
 ## **Tech Stack**
 - **Programming Language**: Python
+- **Web Framework**: Flask
 - **Machine Learning**: scikit-learn
 - **Data Processing**: pandas, numpy
+- **Visualization**: matplotlib
 - **Email Service**: smtplib
-- **Log Visualization**: matplotlib
+- **Real-Time Updates**: Flask-SocketIO
 
-
----
-
-#Let me know if anything comes up.
+```
+Let me know if you need further assistance!
+```
